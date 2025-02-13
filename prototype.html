@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="votre nom">
+  <meta name="description" content="TP pratique sur l'utilisation des balises">
+  <meta name="keywords" content="balises, html, css, responsive design">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidr bio glow up</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="icons8-favicon.gif" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="prototype.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Livraison gratuite a partir 400 dhs</p>
+      </div> 
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Rechercher un produit" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <h1 class="title">Sidr bio glow up</h1>
+
+        <div class="header-actions">
+
+          <button class="header-action-btn" aria-label="user">
+            <a href="formular.html"><ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon></a>
+          </button>
+
+          <button class="header-action-btn" aria-label="favourite item">
+            <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <button class="header-action-btn" aria-label="cart item">
+            <data class="btn-text" value="0">$0.00</data>
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link has-after">Home</a>
+            </li>
+
+            <li>
+              <a href="#collection" class="navbar-link has-after">Collection</a>
+            </li>
+
+            <li>
+              <a href="#shop" class="navbar-link has-after">Shop</a>
+            </li>
+
+            <li>
+              <a href="#offer" class="navbar-link has-after">Offer</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link has-after">Blog</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+        </li>
+
+        <li>
+          <a href="#offer" class="navbar-link" data-nav-link>Offre</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('image/ZO544NJ2RBDDVKEFFGU2LE4UTU.webp')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                  Révéler le <br>
+                  Beauté de la peau
+                  </h1>
+
+                  <p class="hero-text">
+                    Fabriqués à partir d’ingrédients propres et non chimiques .
+
+                  </p>
+
+                  <p class="price">A partir de 50 dhs</p>
+
+                  <a href="#" class="btn btn-primary">acheter </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('image/actif-cosmetique-bio.jpg')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                  Révéler le <br>
+                  Beauté de la peau
+                  </h1>
+
+                  <p class="hero-text">
+                    Fabriqués à partir d’ingrédients propres et non chimiques .
+                  </p>
+
+                  <p class="price">A partir 50 dhs</p>
+
+                  <a href="#" class="btn btn-primary">Acheter</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('image/cosmetics-bio.jpg')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Révéler le <br>
+                    Beauté de la peau
+                    </h1>  
+
+                  <p class="hero-text">
+                    Fabriqués à partir d’ingrédients propres et non chimiques .
+                  </p>
+
+                  <p class="price">A partir 50 dhs</p>
+
+                  <a href="#" class="btn btn-primary">Acheter</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title" style="color: green;">Masque</h2>
+
+                <p class="card-text">A partir 50 dhs</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span" style="color: green;">Voir plus</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('image/masque.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title"style="color: green;">Creme</h2>
+
+                <p class="card-text">A partir 50 dhs</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span" style="color: green;">Voir plus</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('image/creeme.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title" style="color: green;">Gommage</h2>
+
+                <p class="card-text">A partir 50 dhs</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span"style="color: green;">Voir plus</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('image/images\ \(2\).jfif')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SHOP
+      -->
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title"style="color: green;">Nos best-sellers</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span" style="color: green;">Shop All Products</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="image/produit1.jfif" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">80 dhs</del>
+
+                    <span class="span">50 dhs</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Masque</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">500 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="image/produit2.jpg" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">600 dhs</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">pack sidr</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">570 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="image/produit3.jpg" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">300 dhs</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">pack glow up</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">510 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="image/produit4.jpg" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">120 dhs</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">shampoing</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">600 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="image/produit5.jpg" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">80 dhs</del>
+
+                    <span class="span">60 dhs</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Creme</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">700 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="image/produit6.jpg" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">140 dhs</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">shampoing</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">630 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section banner" aria-label="banner" data-section>
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li>
+              <div class="banner-card banner-card-1 has-before hover:shine">
+
+                <p class="card-subtitle" style="color: green;">Nouvelle Collection</p>
+
+                <h2 class="h2 card-title" style="color: green;">Nouveau produit de visage 100% naturelles</h2>
+
+                <a href="#" class="btn btn-secondary" style="color: green;">Voir plus</a>
+
+                <div class="has-bg-image" style="background-image: url('image/téléchargement\ \(4\).jfif')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="banner-card banner-card-2 has-before hover:shine">
+
+                <h2 class="h2 card-title" style="color: green;">25% sur la moitie dans nos produits</h2>
+
+                <p class="card-text" style="color: green;">
+                  Creme , shampoing, gommage...
+                </p>
+
+                <a href="#" class="btn btn-secondary" style="color: green;">Shop Sale</a>
+
+                <div class="has-bg-image" style="background-image: url('image/téléchargement\ \(3\).jfif')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title" style="color: green;">pourquoi acheter chez Sidr bio glow up ?</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="image/naturelle.jpg" width="204" height="236" loading="lazy" alt="Guaranteed PURE"
+                  class="card-icon">
+
+                <h3 class="h3 card-title" style="color: rgb(29, 182, 29);">Ingredient 100 % Naturelles</h3>
+
+                <p class="card-text">
+                  Les ingrédients 100 % naturels proviennent directement de la nature,
+                   sans ajout de produits chimiques. 
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="image/cruelty.jpg" width="204" height="236" loading="lazy"
+                  alt="Completely Cruelty-Free" class="card-icon">
+
+                <h3 class="h3 card-title" style="color: rgb(29, 182, 29);">Complètement sans cruauté</h3>
+
+                <p class="card-text">
+                  un produit ou une pratique est conçu de manière à ne causer aucune souffrance, 
+                  ni test ni exploitation des animaux.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="image/ingredient.jpg" width="204" height="236" loading="lazy"
+                  alt="Ingredient Sourcing" class="card-icon">
+
+                <h3 class="h3 card-title" style="color: rgb(29, 182, 29);">Approvisionnement en ingrédients</h3>
+
+                <p class="card-text">
+                  désigne l'achat et la gestion des matières premières nécessaires à la fabrication d'un produit.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #OFFER
+      -->
+
+      <section class="section offer" id="offer" aria-label="offer" data-section>
+        <div class="container">
+
+          <figure class="offer-banner">
+
+            <img src="image/produit2.jpg" loading="lazy" alt="offer products"
+              class="img">
+          </figure>
+
+          <div class="offer-content">
+
+            <p class="offer-subtitle">
+              <span class="span"> Offre Special</span>
+
+              <span class="badge" aria-label="40% off">-40%</span>
+            </p>
+
+            <h2 class="h2-large section-title" style="color: green;">Pack de sidr</h2>
+
+            <p class="section-text">
+              Pack avec des ingredients 100 % naturelles a base de sidr .
+            </p>
+
+            <div class="countdown" style="color: black;">
+
+              <span class="time" aria-label="hours">21</span>
+              <span class="time" aria-label="minutes">46</span>
+              <span class="time" aria-label="seconds">08</span>
+
+            </div>
+
+            <a href="#" class="btn btn-primary" style="background-color: green;">juste a 300 dhs</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title" style="color: green;">More to Discover </h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="image/store.jpg" width="700" height="450" loading="lazy" alt="Find a Store"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"style="color: green;">Trouver un magasin </a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Voir plus </span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="image/blog.jpg" width="700" height="450" loading="lazy" alt="From Our Blog"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title" style="color: green;">De notre blog</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Notre magasin</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="image/story.jpg" width="700" height="450" loading="lazy" alt="Our Story"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title" style="color: green;">Notre histoire</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Voir plus </span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: green;">Entreprise</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Trouvez un emplacement le plus proche de chez vous.  <a href="#" class="link">Voir nos magasins</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold" style="color: green;">0702977092</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">SidrBioGlowUp@gmail.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: green;"> Liens utiles</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nouveau Produit</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Meilleures ventes</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Regroupez et économisez</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Carte-cadeau en ligne</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: green;">Infomation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Démarrer un retour</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contactez nous</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Conditions générales</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">politique de confidentialité</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title" style="color: green;">Email</p>
+
+          <p class="newsletter-text">
+            Entrez votre e-mail ci-dessous pour être le premier informé des nouvelles collections et des lancements de produits.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Entrer votre adresse email" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary" style="background-color: green;">S'abonner</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright" style="color: green;">
+            &copy; 2024 Sidr bio glow up
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://x.com/" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <h1 style="color: green; font-family: 'Times New Roman', Times, serif;">Sidr bio glow up</h1>
+
+        <img src="image/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="prototype.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
